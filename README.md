@@ -61,7 +61,11 @@ $ docker run -p 80:80  -d  nginx
 ```
 docker run -P  -d httpd
 ```
+### Volume Mapping 
 
+```
+docker run -v /home/verma/mysql-data:/var/lib/mysql  -e MYSQL_ROOT_PASSWORD=password -d mysql
+```
 
  ### Dockerfile reference :
  ```
