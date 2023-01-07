@@ -12,8 +12,8 @@
 
 # When you declare something in ENTRYOINT that can never be overrided and can be overriden if you delcare in CMD  
 
-FROM    centos:7  
-RUN     useradd roboshop  
-USER    roboshop  
-CMD     ["google.com"] 
-ENTRYPOINT ["ping", "-c","10"]
+FROM        centos:7  
+RUN         useradd roboshop  
+USER        roboshop  
+CMD         ["google.com"] 
+ENTRYPOINT  ["ping", "-c","10"]
